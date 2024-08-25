@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Slicked by DD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Book Your Appointment</h1>
+        <form action="BookAppointment" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="ponytailstyles">Ponytail Styles:</label>
+            <select id="ponytailstyles" name="ponytailstyles" required>
+                <option value="High Ponytail">High Ponytail</option>
+                <option value="Middle Part Ponytail">Middle Part Ponytail</option>
+                <option value="Braided Ponytail">Braided Ponytail</option>
+            </select>
+
+            <label for="bunsstyles">Buns Styles:</label>
+            <select id="bunsstyles" name="bunsstyles" required>
+                <option value="Top Knot Bun">Top Knot Bun</option>
+                <option value="Side Swoop Knot Bun">Side Swoop Knot Bun</option>
+                <option value="3 Part Bun">3 Part Bun</option>
+            </select>
+
+            <label for="updostyles">Updo Styles</label>
+            <select id="updostyles" name="updostyles" required>
+                <option value="Curly Bun Updo">Curly Bun Updo </option>
+                <option value="Half Up Half Down">Half Up Half Down</option>
+            </select>
+
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </div>
+</body>
+</html>
